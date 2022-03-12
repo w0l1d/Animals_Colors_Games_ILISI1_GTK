@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projet final" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projet final" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-mms-bitfields" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/gtk-3.0" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/cairo" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/gdk" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/glib-2.0" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/lib/glib-2.0/include" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/pango-1.0" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/lib/gtk-3.0/include" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/atk-1.0" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/include/gdk-pixbuf-2.0" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Program Files (x86)/CodeBlocks/GTK/lib" />
+		</Linker>
+		<Unit filename="acc_aleatoire.h" />
+		<Unit filename="anim_rules.h" />
+		<Unit filename="animals.h" />
+		<Unit filename="choisir_parmis_les_regles.h" />
+		<Unit filename="help_rp.h" />
+		<Unit filename="interface_globale.h" />
+		<Unit filename="lesregles.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main_headers.h" />
+		<Unit filename="myfunctions.h" />
+		<Unit filename="myheaders.h" />
+		<Unit filename="ur_own_rules.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
